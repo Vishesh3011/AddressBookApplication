@@ -89,6 +89,4 @@ class Contacts: AddressBook, Group(){
     override fun showGroupMembers(species: String) {
         println("${groups[species]} are the members of $species")
     }
-
-    val ABC: String? = null
 }
